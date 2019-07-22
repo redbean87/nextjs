@@ -1,6 +1,6 @@
 {
-  "name": "Next Offline - naruto",
-  "short_name": "Next Offline - naruto",
+  "name": "NextJS Naruto Search",
+  "short_name": "NextJS Naruto Search",
   "icons": [
     {
       "src": "/static/naruto-144.png",
@@ -20,7 +20,7 @@
   ],
   "background_color": "#FFFFFF",
   "description": "naruto",
-  "display": "standalone",
+  "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#000"
 }
