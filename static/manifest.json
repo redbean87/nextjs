@@ -20,7 +20,7 @@
   ],
   "background_color": "#FFFFFF",
   "description": "naruto",
-  "display": "fullscreen",
+  "display": "standalone",
   "start_url": "/",
   "theme_color": "#000"
 }
