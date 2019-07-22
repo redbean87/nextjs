@@ -1,0 +1,21 @@
+{
+  "name": "Next Offline - naruto",
+  "short_name": "Next Offline - naruto",
+  "icons": [
+    {
+      "src": "/static/naruto-192.png",
+      "type": "image/png",
+      "sizes": "216x192"
+    },
+    {
+      "src": "/static/naruto-512.png",
+      "type": "image/png",
+      "sizes": "576x512"
+    }
+  ],
+  "background_color": "#FFFFFF",
+  "description": "naruto",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#000"
+}
