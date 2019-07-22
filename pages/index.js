@@ -1,9 +1,12 @@
-import Layout from '../components/MyLayout.js';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 
+import Head from '../components/Head.js';
+import Layout from '../components/MyLayout.js';
+
 const Index = props => (
   <Layout>
+    <Head />
     <h1>Naruto TV Shows</h1>
     <ul>
       {props.shows.map(show => (
