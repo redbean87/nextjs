@@ -4,11 +4,14 @@ import fetch from 'isomorphic-unfetch';
 const Post = props => {
   const { show = {} } = props;
   const { name = '', summary = '', image = {} } = show;
+  const { medium = '' } = image;
+  const imgSrc = medium.replace('http', 'https');
+
   return (
     <Layout>
       <h1>{name}</h1>
       <p>{summary && summary.replace(/<[/]?p>/g, '')}</p>
-      <img src={image.medium} />
+      <img src={imgSrc} />
     </Layout>
   );
 };
